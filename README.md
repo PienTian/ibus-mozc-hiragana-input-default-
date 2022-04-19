@@ -1,5 +1,6 @@
 made default input method （あ）
 
+`sudo dpkg -i ./mozc*.deb ./ibus-mozc*.deb`
 ---
 [Mozc - a Japanese Input Method Editor designed for multi-platform](https://github.com/google/mozc)
 ===================================
