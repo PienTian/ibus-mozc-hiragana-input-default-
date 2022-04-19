@@ -1,0 +1,13 @@
+Package: ibus-mozc-dbgsym
+Package-Type: ddeb
+Source: mozc
+Version: 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 3724
+Depends: ibus-mozc (= 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842)
+Section: debug
+Priority: optional
+Description: debug symbols for ibus-mozc
+Build-Ids: 1958af07e9556b3016dfdac67d63b7cd026ced7c

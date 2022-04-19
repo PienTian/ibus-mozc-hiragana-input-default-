@@ -1,0 +1,103 @@
+rule libmozc_gboard_target_libtool_d9ea9445c8917bb36a9ca2aaeb9d8e79
+  command = cd ../../ios; libtool -static -o $
+      ../out_linux/Release/libmozc_gboard.a ../out_linux/Release/libbase.a $
+      ../out_linux/Release/libbase_core.a $
+      ../out_linux/Release/libbit_vector_based_array.a $
+      ../out_linux/Release/libcalculator.a $
+      ../out_linux/Release/libcandidates_proto.a $
+      ../out_linux/Release/libcharacter_form_manager.a $
+      ../out_linux/Release/libclock.a ../out_linux/Release/libcodec.a $
+      ../out_linux/Release/libcodec_factory.a $
+      ../out_linux/Release/libcodec_util.a $
+      ../out_linux/Release/libcommands_proto.a $
+      ../out_linux/Release/libcomposer.a $
+      ../out_linux/Release/libconfig_file_stream.a $
+      ../out_linux/Release/libconfig_handler.a $
+      ../out_linux/Release/libconfig_proto.a $
+      ../out_linux/Release/libconnector.a $
+      ../out_linux/Release/libconversion_request.a $
+      ../out_linux/Release/libconverter.a $
+      ../out_linux/Release/libconverter_util.a $
+      ../out_linux/Release/libdata_manager.a $
+      ../out_linux/Release/libdataset_proto.a $
+      ../out_linux/Release/libdataset_reader.a $
+      ../out_linux/Release/libdictionary_file.a $
+      ../out_linux/Release/libdictionary_impl.a $
+      ../out_linux/Release/libencryptor.a ../out_linux/Release/libengine.a $
+      ../out_linux/Release/libengine_builder.a $
+      ../out_linux/Release/libengine_builder_proto.a $
+      ../out_linux/Release/libflags.a $
+      ../out_linux/Release/libgoogle_data_manager.a $
+      ../out_linux/Release/libhash.a $
+      ../out_linux/Release/libimmutable_converter.a $
+      ../out_linux/Release/libimmutable_converter_interface.a $
+      ../out_linux/Release/libios_engine.a $
+      ../out_linux/Release/libkey_event_util.a $
+      ../out_linux/Release/libkey_parser.a ../out_linux/Release/libkeymap.a $
+      ../out_linux/Release/libkeymap_factory.a $
+      ../out_linux/Release/liblattice.a ../out_linux/Release/liblouds.a $
+      ../out_linux/Release/liblouds_trie.a $
+      ../out_linux/Release/libmultifile.a ../out_linux/Release/libmutex.a $
+      ../out_linux/Release/libobfuscator_support.a $
+      ../out_linux/Release/libprediction.a $
+      ../out_linux/Release/libprediction_protocol.a $
+      ../out_linux/Release/librequest_test_util.a $
+      ../out_linux/Release/librewriter.a $
+      ../out_linux/Release/libsegmenter.a $
+      ../out_linux/Release/libsegmenter_data_proto.a $
+      ../out_linux/Release/libsegments.a $
+      ../out_linux/Release/libserialized_dictionary.a $
+      ../out_linux/Release/libserialized_string_array.a $
+      ../out_linux/Release/libsession.a $
+      ../out_linux/Release/libsession_handler.a $
+      ../out_linux/Release/libsession_internal.a $
+      ../out_linux/Release/libsession_usage_stats_util.a $
+      ../out_linux/Release/libsimple_succinct_bit_vector_index.a $
+      ../out_linux/Release/libsingleton.a $
+      ../out_linux/Release/libstats_config_util.a $
+      ../out_linux/Release/libstorage.a $
+      ../out_linux/Release/libsuffix_dictionary.a $
+      ../out_linux/Release/libsuggestion_filter.a $
+      ../out_linux/Release/libsuppression_dictionary.a $
+      ../out_linux/Release/libsystem_dictionary.a $
+      ../out_linux/Release/libsystem_dictionary_codec.a $
+      ../out_linux/Release/libtext_dictionary_loader.a $
+      ../out_linux/Release/libtransliteration.a $
+      ../out_linux/Release/libusage_stats.a $
+      ../out_linux/Release/libusage_stats_protocol.a $
+      ../out_linux/Release/libuser_dictionary.a $
+      ../out_linux/Release/libuser_dictionary_storage_proto.a $
+      ../out_linux/Release/libuser_pos.a $
+      ../out_linux/Release/libvalue_dictionary.a
+  description = ACTION libmozc_gboard: $
+      libtool_d9ea9445c8917bb36a9ca2aaeb9d8e79
+  restat = 1
+
+build libmozc_gboard.a: $
+    libmozc_gboard_target_libtool_d9ea9445c8917bb36a9ca2aaeb9d8e79 $
+    libbase.a libbase_core.a libbit_vector_based_array.a libcalculator.a $
+    libcandidates_proto.a libcharacter_form_manager.a libclock.a libcodec.a $
+    libcodec_factory.a libcodec_util.a libcommands_proto.a libcomposer.a $
+    libconfig_file_stream.a libconfig_handler.a libconfig_proto.a $
+    libconnector.a libconversion_request.a libconverter.a $
+    libconverter_util.a libdata_manager.a libdataset_proto.a $
+    libdataset_reader.a libdictionary_file.a libdictionary_impl.a $
+    libencryptor.a libengine.a libengine_builder.a $
+    libengine_builder_proto.a libflags.a libgoogle_data_manager.a libhash.a $
+    libimmutable_converter.a libimmutable_converter_interface.a $
+    libios_engine.a libkey_event_util.a libkey_parser.a libkeymap.a $
+    libkeymap_factory.a liblattice.a liblouds.a liblouds_trie.a $
+    libmultifile.a libmutex.a libobfuscator_support.a libprediction.a $
+    libprediction_protocol.a librequest_test_util.a librewriter.a $
+    libsegmenter.a libsegmenter_data_proto.a libsegments.a $
+    libserialized_dictionary.a libserialized_string_array.a libsession.a $
+    libsession_handler.a libsession_internal.a $
+    libsession_usage_stats_util.a libsimple_succinct_bit_vector_index.a $
+    libsingleton.a libstats_config_util.a libstorage.a $
+    libsuffix_dictionary.a libsuggestion_filter.a $
+    libsuppression_dictionary.a libsystem_dictionary.a $
+    libsystem_dictionary_codec.a libtext_dictionary_loader.a $
+    libtransliteration.a libusage_stats.a libusage_stats_protocol.a $
+    libuser_dictionary.a libuser_dictionary_storage_proto.a libuser_pos.a $
+    libvalue_dictionary.a
+

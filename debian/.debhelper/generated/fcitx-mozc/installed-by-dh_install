@@ -1,0 +1,6 @@
+./src/out_linux/Release/fcitx-mozc.so
+./debian/tmp/dh-exec.wb1ukDxU/usr/share/locale/ja/LC_MESSAGES/fcitx-mozc.mo
+./debian/tmp/dh-exec.wb1ukDxU/usr/share/locale/zh_TW/LC_MESSAGES/fcitx-mozc.mo
+./debian/tmp/dh-exec.wb1ukDxU/usr/share/locale/zh_CN/LC_MESSAGES/fcitx-mozc.mo
+./src/unix/fcitx/fcitx-mozc.conf
+./src/unix/fcitx/mozc.conf

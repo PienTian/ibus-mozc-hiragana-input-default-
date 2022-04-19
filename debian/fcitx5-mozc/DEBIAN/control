@@ -1,0 +1,25 @@
+Package: fcitx5-mozc
+Source: mozc
+Version: 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842
+Architecture: amd64
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 1124
+Depends: libabsl20200923 (>= 0~20200923-1), libc6 (>= 2.34), libfcitx5config6 (>= 5.0.5), libfcitx5core7 (>= 5.0.5), libfcitx5utils2 (>= 5.0.5), libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 5.2), fcitx5, mozc-server (= 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842), fcitx-mozc-data
+Recommends: mozc-utils-gui (= 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842)
+Section: utils
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/google/mozc.git
+Description: Mozc engine for fcitx5 - Client of the Mozc input method
+ This is the mozc engine for fcitx version 5.
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables.
+ It is highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules,
+ support for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and
+ a developer-friendly API.
+ .
+ fcitx5-mozc provides client part of the Mozc input method.

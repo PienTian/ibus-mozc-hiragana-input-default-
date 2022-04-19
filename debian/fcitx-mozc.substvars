@@ -1,0 +1,3 @@
+shlibs:Depends=libabsl20200923 (>= 0~20200923-1), libc6 (>= 2.34), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 5.2)
+misc:Depends=
+misc:Pre-Depends=

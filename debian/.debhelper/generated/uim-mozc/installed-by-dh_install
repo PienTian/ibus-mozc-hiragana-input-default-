@@ -1,0 +1,4 @@
+./src/out_linux/Release/libuim-mozc.so
+./src/unix/uim/scm/mozc-custom.scm
+./src/unix/uim/scm/mozc-key-custom.scm
+./src/unix/uim/scm/mozc.scm

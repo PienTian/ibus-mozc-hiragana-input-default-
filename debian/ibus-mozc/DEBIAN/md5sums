@@ -1,0 +1,5 @@
+844b9ad56055bd5fced18b9e03cc9ec0  usr/lib/ibus-mozc/ibus-engine-mozc
+d769cf7fed14767587c5e217d47ccf9e  usr/share/doc/ibus-mozc/README.Debian
+6fc4668636de33f553818ca1dae2feda  usr/share/doc/ibus-mozc/changelog.Debian.gz
+0439f7f24d5ab635267ed925c2836cf8  usr/share/doc/ibus-mozc/copyright
+64237bd70b94bfa5cdf2939fc42a67be  usr/share/ibus/component/mozc.xml

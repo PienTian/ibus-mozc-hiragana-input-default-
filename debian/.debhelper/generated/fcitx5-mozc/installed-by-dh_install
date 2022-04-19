@@ -1,0 +1,13 @@
+./src/out_linux/Release/fcitx5-mozc.so
+./debian/tmp/dh-exec.2LujbTuS/usr/share/fcitx5/addon/mozc.conf
+./src/unix/fcitx5/mozc.conf
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/ca/LC_MESSAGES/fcitx5-mozc.mo
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/da/LC_MESSAGES/fcitx5-mozc.mo
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/de/LC_MESSAGES/fcitx5-mozc.mo
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/he/LC_MESSAGES/fcitx5-mozc.mo
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/ja/LC_MESSAGES/fcitx5-mozc.mo
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/ko/LC_MESSAGES/fcitx5-mozc.mo
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/ru/LC_MESSAGES/fcitx5-mozc.mo
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/zh_CN/LC_MESSAGES/fcitx5-mozc.mo
+./debian/tmp/dh-exec.2LujbTuS/usr/share/locale/zh_TW/LC_MESSAGES/fcitx5-mozc.mo
+./src/unix/fcitx5/org.fcitx.Fcitx5.Addon.Mozc.metainfo.xml

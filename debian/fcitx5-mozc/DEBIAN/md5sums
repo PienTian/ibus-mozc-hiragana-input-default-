@@ -1,0 +1,15 @@
+eba12addeed1167c91f6b0d4b3e40c6f  usr/lib/x86_64-linux-gnu/fcitx5/fcitx5-mozc.so
+6fc4668636de33f553818ca1dae2feda  usr/share/doc/fcitx5-mozc/changelog.Debian.gz
+0439f7f24d5ab635267ed925c2836cf8  usr/share/doc/fcitx5-mozc/copyright
+570e8ab8ca65ab2463613218ac591319  usr/share/fcitx5/addon/mozc.conf
+b8a80bbfd56053fbaa2e2889961ee5f3  usr/share/fcitx5/inputmethod/mozc.conf
+3648be1917cefe2b8aa8fd770aa366ae  usr/share/locale/ca/LC_MESSAGES/fcitx5-mozc.mo
+d385f398c1ba83e47bf25dadffa27919  usr/share/locale/da/LC_MESSAGES/fcitx5-mozc.mo
+45e4e2e0c4b0d2e82d9f74322fb6207c  usr/share/locale/de/LC_MESSAGES/fcitx5-mozc.mo
+0ac33d1d5958b4905ea6796dc2011d17  usr/share/locale/he/LC_MESSAGES/fcitx5-mozc.mo
+9d6f3cb6e677118998c18804dc2c3728  usr/share/locale/ja/LC_MESSAGES/fcitx5-mozc.mo
+197ad03a74a72701c204802550750b4d  usr/share/locale/ko/LC_MESSAGES/fcitx5-mozc.mo
+8f79dd049422b7fca794b3f2d64d1dba  usr/share/locale/ru/LC_MESSAGES/fcitx5-mozc.mo
+8cad1e578f837f6a2141bc2c405c3b6c  usr/share/locale/zh_CN/LC_MESSAGES/fcitx5-mozc.mo
+b76810517edcbde1a078fabdd9806200  usr/share/locale/zh_TW/LC_MESSAGES/fcitx5-mozc.mo
+c1e1a3a9cadd1802788911db6a5b0a4d  usr/share/metainfo/org.fcitx.Fcitx5.Addon.Mozc.metainfo.xml

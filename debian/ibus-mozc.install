@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec --with-scripts=install-rename
+# module
+src/out_linux/Release/ibus_mozc => usr/lib/ibus-mozc/ibus-engine-mozc
+# config files
+src/out_linux/Release/gen/unix/ibus/mozc.xml usr/share/ibus/component/

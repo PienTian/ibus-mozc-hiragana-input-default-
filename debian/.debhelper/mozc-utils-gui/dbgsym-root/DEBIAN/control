@@ -1,0 +1,13 @@
+Package: mozc-utils-gui-dbgsym
+Package-Type: ddeb
+Source: mozc
+Version: 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 9390
+Depends: mozc-utils-gui (= 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842)
+Section: debug
+Priority: optional
+Description: debug symbols for mozc-utils-gui
+Build-Ids: 6f6e291335167621414c93fb1732211d94b99bf4

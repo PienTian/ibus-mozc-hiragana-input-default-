@@ -1,0 +1,22 @@
+Package: ibus-mozc
+Source: mozc
+Version: 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842
+Architecture: amd64
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 709
+Depends: libabsl20200923 (>= 0~20200923-1), libc6 (>= 2.34), libglib2.0-0 (>= 2.31.8), libibus-1.0-5 (>= 1.5.4), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 5.2), libxcb-xfixes0, libxcb1, mozc-data, mozc-server (= 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842), ibus (>= 1.2)
+Suggests: mozc-utils-gui (= 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842)
+Section: utils
+Priority: optional
+Homepage: https://github.com/google/mozc.git
+Description: Mozc engine for IBus - Client of the Mozc input method
+ IBus is an Intelligent Input Bus. It is a new input framework for Linux OS.
+ It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
+ Mozc is a Japanese Input Method Editor (IME) designed for multi-platform
+ such as Chromium OS, Windows, Mac and Linux.
+ .
+ ibus-mozc provides client part of the Mozc input method.
+ .
+ This open-source project originates from Google Japanese Input.

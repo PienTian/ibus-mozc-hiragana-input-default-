@@ -1,0 +1,14 @@
+Package: uim-mozc-dbgsym
+Package-Type: ddeb
+Source: mozc
+Version: 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 2776
+Depends: uim-mozc (= 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for uim-mozc
+Build-Ids: 5bb5561252d5301f2fbe154283b541995efe720c

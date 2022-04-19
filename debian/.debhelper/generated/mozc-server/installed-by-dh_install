@@ -1,0 +1,3 @@
+./src/out_linux/Release/mozc_server
+./src/out_linux/Release/mozc_renderer
+./debian/mozc-server.apparmor

@@ -1,0 +1,10 @@
+rule qrc_tr_target_qrc_e6eeb6d974ecdfd75ab54ab4717fb6b3
+  command = cd ../../gui; /usr/lib/x86_64-linux-gnu/qt5/bin/rcc -o $
+      ../out_linux/Debug/gen/gui/base/qrc_tr.cc -name qrc_tr base/tr.qrc
+  description = ACTION Generating Resource file from tr.qrc
+  restat = 1
+
+build gen/gui/base/qrc_tr.cc: $
+    qrc_tr_target_qrc_e6eeb6d974ecdfd75ab54ab4717fb6b3 $
+    ../../gui/base/tr.qrc ../../gui/base/tr_en.qm ../../gui/base/tr_ja.qm
+

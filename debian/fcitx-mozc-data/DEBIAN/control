@@ -1,0 +1,19 @@
+Package: fcitx-mozc-data
+Source: mozc
+Version: 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842
+Architecture: all
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 53
+Depends: mozc-data
+Conflicts: fcitx-mozc (<< 2.26.4220.100+dfsg)
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/google/mozc.git
+Description: Mozc input method - data files for fcitx
+ Mozc is a Japanese Input Method Editor (IME) designed for multi-platform
+ such as Chromium OS, Windows, Mac and Linux.
+ .
+ This package provides the image files for fcitx.
+ .
+ This open-source project originates from Google Japanese Input.

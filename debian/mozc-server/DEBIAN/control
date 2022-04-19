@@ -1,0 +1,18 @@
+Package: mozc-server
+Source: mozc
+Version: 2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842
+Architecture: amd64
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 18488
+Depends: libabsl20200923 (>= 0~20200923-1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.20.0), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 11)
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/google/mozc.git
+Description: Server of the Mozc input method
+ Mozc is a Japanese Input Method Editor (IME) designed for multi-platform
+ such as Chromium OS, Windows, Mac and Linux.
+ .
+ mozc-server provides GUI utilities of the Mozc input method.
+ .
+ This open-source project originates from Google Japanese Input.

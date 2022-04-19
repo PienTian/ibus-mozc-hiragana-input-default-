@@ -1,0 +1,18 @@
+<component>
+  <name>com.google.IBus.Mozc</name>
+  <description>Mozc Component</description>
+  <exec>/usr/lib/ibus-mozc/ibus-engine-mozc --ibus</exec>
+  <version>2.26.4220.100+dfsg-4.1ubuntu0.1pop0~1635283403~21.10~2cb9842</version>
+  <author>Google Inc.</author>
+  <license>New BSD</license>
+  <homepage>https://github.com/google/mozc</homepage>
+  <textdomain>ibus-mozc</textdomain>
+  <engines exec="/usr/lib/ibus-mozc/ibus-engine-mozc --xml" />
+</component>
+
+<!-- Settings of <engines> and <layout> are stored in ibus_config.textproto -->
+<!-- under the user configuration directory, which is either of: -->
+<!-- * $XDG_CONFIG_HOME/mozc/ibus_config.textproto -->
+<!-- * $HOME/.config/mozc/ibus_config.textproto -->
+<!-- * $HOME/.mozc/ibus_config.textproto -->
+

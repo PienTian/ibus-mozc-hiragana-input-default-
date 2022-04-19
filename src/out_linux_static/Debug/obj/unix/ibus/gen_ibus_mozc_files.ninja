@@ -1,0 +1,15 @@
+rule gen_ibus_mozc_files_target_gen_main_h_c941f823e8cf195d8d85cc3e1c08b278
+  command = cd ../../unix/ibus; /usr/bin/python3 $
+      ../../build_tools/redirect.py $
+      ../../out_linux/Debug/gen/unix/ibus/main.h ./gen_mozc_xml.py $
+      "--branding=Mozc" --output_cpp $
+      "--ibus_mozc_path=/usr/lib/ibus-mozc/ibus-engine-mozc" $
+      "--ibus_mozc_icon_path=/usr/share/ibus-mozc/product_icon.png"
+  description = ACTION gen_ibus_mozc_files: $
+      gen_main_h_c941f823e8cf195d8d85cc3e1c08b278
+  restat = 1
+
+build gen/unix/ibus/main.h: $
+    gen_ibus_mozc_files_target_gen_main_h_c941f823e8cf195d8d85cc3e1c08b278 $
+    ../../unix/ibus/gen_mozc_xml.py || gen/unix/ibus/mozc.xml
+
