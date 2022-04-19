@@ -1,3 +1,6 @@
+made default input method （あ）
+
+---
 [Mozc - a Japanese Input Method Editor designed for multi-platform](https://github.com/google/mozc)
 ===================================
 
